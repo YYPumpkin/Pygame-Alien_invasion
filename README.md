@@ -1,2 +1,65 @@
-# Pygame-Alien_invasion
-第一次尝试做pygame项目
+# 外星人入侵 🚀
+
+![游戏截图](https://via.placeholder.com/800x400?text=外星人入侵游戏截图)
+
+一款使用Python和Pygame开发的经典太空射击游戏
+
+## 游戏特色 ✨
+
+- 🕹️ 键盘控制飞船移动
+- 👾 外星人舰队和难度递增系统
+- 💥 碰撞检测系统
+- 🔊 音效和背景音乐
+- 📊 计分和关卡系统
+- ⏸️ 暂停功能
+
+## 安装指南 ⚙️
+
+### 运行要求
+- Python 3.6+
+- Pygame 2.0+
+
+```bash
+# 克隆仓库
+git clone https://github.com/yourname/alien-invasion.git
+
+# 安装依赖
+pip install -r requirements.txt
+
+# 运行游戏
+python alien_invasion.py
+
+## 操作说明 🎮
+
+### 键盘控制
+| 按键        | 功能                |
+|------------|--------------------|
+| ← →        | 左右移动飞船        |
+| 空格键      | 发射子弹           |
+| 2          | 暂停/继续游戏      |
+| 1        | 退出游戏           |
+
+### 鼠标控制
+| 操作         | 功能               |
+|-------------|--------------------|
+| 左键点击     | 开始游戏           |
+| 左键点击     | 重新开始游戏       |
+
+> 💡 提示：随着关卡提升，外星人移动速度会逐渐加快！
+
+##项目结构
+外星人入侵/
+├── main.py                # 主游戏循环
+├── settings.py            # 游戏配置
+├── ship.py                # 玩家飞船类
+├── bullet.py              # 子弹系统
+├── alien.py               # 外星人类
+├── game_stats.py          # 游戏数据统计
+├── scoreboard.py          # 分数显示
+├── button.py              # 游戏按钮
+├── music.py               # 音效系统
+├── assets/                # 资源文件
+│   ├── images/            # 图片资源
+│   └── sounds/            # 音效资源
+├── requirements.txt       # 依赖列表
+└── README.md              # 说明文档

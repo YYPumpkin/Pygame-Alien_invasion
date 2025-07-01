@@ -37,18 +37,18 @@
 
 ## 项目结构
 
-外星人入侵/
-├── main.py                # 主游戏循环
-├── settings.py            # 游戏配置
-├── ship.py                # 玩家飞船类
-├── bullet.py              # 子弹系统
-├── alien.py               # 外星人类
-├── game_stats.py          # 游戏数据统计
-├── scoreboard.py          # 分数显示
-├── button.py              # 游戏按钮
-├── music.py               # 音效系统
-├── assets/                # 资源文件
-│   ├── images/            # 图片资源
-│   └── sounds/            # 音效资源
-├── requirements.txt       # 依赖列表
-└── README.md              # 说明文档
+外星人入侵/  
+├── main.py                # 主游戏循环  
+├── settings.py            # 游戏配置  
+├── ship.py                # 玩家飞船类  
+├── bullet.py              # 子弹系统  
+├── alien.py               # 外星人类  
+├── game_stats.py          # 游戏数据统计  
+├── scoreboard.py          # 分数显示  
+├── button.py              # 游戏按钮  
+├── music.py               # 音效系统  
+├── assets/                # 资源文件  
+│   ├── images/            # 图片资源  
+│   └── sounds/            # 音效资源  
+├── requirements.txt       # 依赖列表  
+└── README.md              # 说明文档  

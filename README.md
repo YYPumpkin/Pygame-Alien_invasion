@@ -1,7 +1,5 @@
 # 外星人入侵 🚀
 
-![游戏截图](https://via.placeholder.com/800x400?text=外星人入侵游戏截图)
-
 一款使用Python和Pygame开发的经典太空射击游戏
 
 ## 游戏特色 ✨
@@ -19,17 +17,7 @@
 - Python 3.6+
 - Pygame 2.0+
 
-```bash
-# 克隆仓库
-git clone https://github.com/yourname/alien-invasion.git
-
-# 安装依赖
-pip install -r requirements.txt
-
-# 运行游戏
-python alien_invasion.py
-
-## 操作说明 🎮
+## 运行要求 🎮
 
 ### 键盘控制
 | 按键        | 功能                |
@@ -37,7 +25,7 @@ python alien_invasion.py
 | ← →        | 左右移动飞船        |
 | 空格键      | 发射子弹           |
 | 2          | 暂停/继续游戏      |
-| 1        | 退出游戏           |
+| 1          | 退出游戏           |
 
 ### 鼠标控制
 | 操作         | 功能               |
@@ -47,7 +35,8 @@ python alien_invasion.py
 
 > 💡 提示：随着关卡提升，外星人移动速度会逐渐加快！
 
-##项目结构
+## 项目结构
+
 外星人入侵/
 ├── main.py                # 主游戏循环
 ├── settings.py            # 游戏配置
